@@ -1,0 +1,221 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -o-transition: transform .5s ease-in-out;
+    -ms-transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+}
+body{
+    padding-top: 30px;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    -o-perspective: 600px;
+    -ms-perspective: 600px;
+    perspective: 600px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.container{ width:80%; margin:auto}
+h2{color: #1e4c5d}
+h2,h3{text-transform: capitalize;padding-bottom: 5px;}
+img:hover,i:hover{cursor: pointer}
+h5{color:#ccc}
+h2:hover,h3:hover{
+    -webkit-text-shadow:0 2px 3px #c8c8c8;
+    text-shadow: 0px 2px 3px #c8c8c8;cursor: pointer}
+.flex{-webkit-display:flex;
+    -moz-display:flex;
+    -o-display:flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    display:flex;
+}
+/***********************************start header*************************/
+header section div{
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -o-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+header section div h1{text-transform: capitalize}
+header section div h1 span{color: #2cc36b}
+header section div ul li{list-style: none}
+header section div ul li i{color:#fff;padding:7px 12px;margin:2px;border-radius:2px;}
+header section div ul li i:hover{
+    -moz-box-shadow: 0 0 2px 4px #eee;
+    -ms-box-shadow: 0 0 2px 4px #eee;
+    -webkit-box-shadow: 0 0 2px 4px #eee;
+    -o-box-shadow: 0 0 2px 4px #eee;
+    box-shadow:0px 0px 2px 4px #eee;
+    -webkit-transform:rotatey(360deg);
+    -moz-transform:rotatey(360deg);
+    -o-transform:rotatey(360deg);
+    -ms-transform:rotatey(360deg);
+    transform:rotatey(360deg);
+}
+header section div ul li i:first-of-type{background-color: #2cc36b}
+header section div ul li i:nth-of-type(2){background-color: #11eef1}
+header section div ul li i:nth-of-type(3){background-color: #071353}
+header section div ul li i:nth-of-type(4){background-color: #ed6f8d}
+header section div ul li i:nth-of-type(5){background-color: #e61915}
+header section div ul li i:nth-of-type(6){background-color: #248c46}
+header section div ul li i:nth-of-type(7){background-color: #e28d17}
+header section div ul li i:hover{cursor:pointer}
+/******************start nav****************************/
+header section nav ul { border-top:1px solid #ddd; margin-bottom: 0}
+header section nav ul li{list-style:none;padding:10px 15px 10px ;border-right:1px solid #ddd}
+header section nav ul li:hover {background-color:#2cc36b;cursor: pointer}
+header section nav ul li:hover a{color:#fff}
+header section nav ul li a{text-decoration:none;color:#222;margin-bottom:2px}
+header section nav ul li a h3,header section nav ul li a h5{margin:0}
+/***********end nav*****************************************/
+/**********************end header *********************************************************/
+/**************************start article ********************************************************/
+/************************start section 1 ********designers********************************************/
+article section:first-of-type{background-color:#eee;padding-top:50px;padding-bottom:50px}
+article section:first-of-type .container{}
+article section:first-of-type .container div:first-of-type{width:50%}
+article section:first-of-type .container div:first-of-type ul{
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+article section:first-of-type .container div:first-of-type ul li{list-style: none;width:19%;margin:15px 37px}
+article section:first-of-type .container div:first-of-type ul li img{width:100px;height:100px;border-radius: 50%;border:2px solid #c1c1c1}
+article section:first-of-type .container div:first-of-type ul li img:hover{
+    -webkit-box-shadow:1px 2px 5px 1px #ccc;
+    -moz-box-shadow:1px 2px 5px 1px #ccc;
+    -ms-box-shadow:1px 2px 5px 1px #ccc;
+    -o-box-shadow:1px 2px 5px 1px #ccc;
+    box-shadow:1px 2px 5px 1px #ccc;
+    -webkit-transform: scale3d(1,1,.5) rotatey(60deg);
+    -moz-transform: scale3d(1,1,.5) rotatey(60deg);
+    -ms-transform: scale3d(1,1,.5) rotatey(60deg);
+    -o-transform: scale3d(1,1,.5) rotatey(60deg);
+    transform: scale3d(1,1,.5) rotatey(60deg);
+}
+article section:first-of-type .container div:first-of-type ul li h4{margin: 6%}
+article section:first-of-type .container div:last-child {width:50%}
+article section:first-of-type .container div:last-child img{width:100%}
+article section:first-of-type .container div:last-child img:hover{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1));
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1)
+}
+/**********************end section 1 ***designers**************************/
+/********************** start section 2*****buy theme*******************/
+article section:nth-of-type(2){background-color:#2cc36b;;color: #fff}
+article section:nth-of-type(2) .container{}
+article section:nth-of-type(2) .container .buy-theme{margin:auto;height:65px;overflow: hidden}
+article section:nth-of-type(2) .container h4{background-color: #1e4c5d;color:#fff;padding:40px 4%;width:21%}
+article section:nth-of-type(2) .container h4:hover{
+    -webkit-box-shadow: 0px 0px 3px 2px #14607c;
+    -moz-box-shadow: 0px 0px 3px 2px #14607c;
+    -ms-box-shadow: 0px 0px 3px 2px #14607c;
+    -o-box-shadow: 0px 0px 3px 2px #14607c;
+    box-shadow: 0px 0px 3px 2px #14607c;
+    cursor: pointer
+}
+/*********end section 2**************buy theme**********************************/
+/*********************start section 3***********fonts************************/
+article section:nth-of-type(3){background-color: #eee;padding: 50px 0}
+article section:nth-of-type(3) .container ul{
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+article section:nth-of-type(3) .container ul li{ width:26%; margin:30px 3%;list-style: none}
+article section:nth-of-type(3) .container ul li i{color:#1e4c5d;font-size: 50px;margin: 15px;width:40%}
+article section:nth-of-type(3) .container ul li div p{font-size: 15px;line-height:1;color:#999}
+/*******************end section 3 **fonts*********************************************/
+/*******************start section 4 *** galary*********************************/
+article section:nth-of-type(4){padding: 20px 0}
+article section:nth-of-type(4) .container ul{
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+article section:nth-of-type(4) .container ul li{list-style:none;width:23%;margin:1%}
+article section:nth-of-type(4) .container ul li img{width: 100%;height:200px;border:2px solid #ddd;background-color: #fff}
+/*****************end section 4*** galary*******************************/
+/******************* start blocks**********************************************/
+/***block 1*/
+article section:nth-of-type(5) .container .block{width:30%;margin:2%;overflow: hidden}
+article section:nth-of-type(5) .container .block h4{background-color: #2cc36b;color:#fff;
+    padding:8px 5px 6px;display: inline-block;margin: 2px 0;
+    width: 88%;
+}
+article section:nth-of-type(5) .container .block span{background-color: #2cab56;padding: 5px;display: inline-block}
+article section:nth-of-type(5) .container .block span i{color:#fff;padding: 4px 6px 3px}
+article section:nth-of-type(5) .container .block p{margin:8px 0;}
+/*block2**/
+article section:nth-of-type(5) .container .block:nth-of-type(2) p{margin: 0 15px}
+article section:nth-of-type(5) .container .block .qute{font-size:17px;color:#071353;background-color: #eee;padding: 2px 10px 38px;}
+article section:nth-of-type(5) .container .block div span{color:#ccc}
+article section:nth-of-type(5) .container .block .qute span:last-of-type{float: right}
+article section:nth-of-type(5) .container .block:nth-of-type(2) .qute span{background-color: inherit;color:#555;font-size: 25px}
+article section:nth-of-type(5) .container .block:nth-of-type(2) .author span{padding: 10px 20px;font-size:40px}
+article section:nth-of-type(5) .container .block:nth-of-type(2) .author div{margin: 10px}
+/*****************end blocks************************************************************/
+/**************************start loading***********************************************/
+article section:nth-of-type(6) {background-color: #e1e1e1;justify-content: center;align-content: center}
+article section:nth-of-type(6) .container .loading{height: 80px;position: relative;margin: auto;width:13%}
+article section:nth-of-type(6) .container .loading span{
+    width:20px;margin: 20px;
+    height:10px;
+    position:absolute;bottom: 0;
+    background-color: #1e4c5d;
+    animation:waving 1.5s infinite ease-in-out
+}
+article section:nth-of-type(6) .container .loading span:nth-of-type(2){left:30px;animation-delay: .2s}
+article section:nth-of-type(6) .container .loading span:nth-of-type(3){left:60px;animation-delay: .4s}
+article section:nth-of-type(6) .container .loading span:nth-of-type(4){left:90px;animation-delay: .6s}
+article section:nth-of-type(6) .container .loading span:nth-of-type(5){left:120px;animation-delay: .8s}
+@keyframes waving {
+    0%,50%,75%,100%{height:20px;transform: translatey(0)}
+    25%{height:40px;transform: translatey(10px)}
+}
+
+/*********************end loading********************************************************/
+/********************************end article*******************************************/
+/******************************start footer********************************************/
+footer{background-color: #2cc36b;padding: 20px 0;}
+footer .container{
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between
+}
+footer .container section:first-of-type h4{color: #eee;}
+footer .container section:first-of-type{margin:auto}
+footer .container .fonts ul li {list-style:none;}
+footer .container .fonts ul li i{color:#eee;font-size: 30px ;padding: 10px;border-radius: 50%}
+footer .container .fonts ul li i:hover{
+    color:#fff;
+    background-color: #1e4c5d;
+    -webkit-transform: scale3d(1.2,1.2,1) rotate(360deg);
+    -moz-transform: scale3d(1.2,1.2,1) rotate(360deg);
+    -ms-transform: scale3d(1.2,1.2,1) rotate(360deg);
+    -o-transform: scale3d(1.2,1.2,1) rotate(360deg);
+    transform: scale3d(1.2,1.2,1) rotate(360deg);
+}
